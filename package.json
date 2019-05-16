@@ -1,0 +1,30 @@
+{
+  "name": "homecenter",
+  "version": "1.0.0",
+  "description": "Home/Apartment infotainment center with module extensions planned such as audio, video, picture, and a calender extensions.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ip": "^1.1.5",
+    "mongoose": "^5.5.8",
+    "esm": "^3.2.22",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxdevos49/HomeCenter.git"
+  },
+  "author": "Maxwell DeVos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxdevos49/HomeCenter/issues"
+  },
+  "homepage": "https://github.com/maxdevos49/HomeCenter#readme"
+}
