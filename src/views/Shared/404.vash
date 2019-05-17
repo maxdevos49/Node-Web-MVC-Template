@@ -1,0 +1,12 @@
+@html.extend('/Shared/_layout', function(model){
+
+    @html.block('content', function(model){
+
+        @{
+            model.title = "404";
+        }
+
+        <h1>@model.title Page</h1>
+
+    })
+})
