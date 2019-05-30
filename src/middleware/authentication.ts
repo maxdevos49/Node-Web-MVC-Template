@@ -1,22 +1,31 @@
 import { Request, Response, NextFunction } from "express";
 
-export function authentication(req: Request, res: Response, next: NextFunction) {
-    if (!req.session || !req.session.passport || !req.session.passport.user) {
+export function authentication(req: any, res: Response, next: NextFunction) {
+
+
+    if (!req.userContext) {
         res.locals = {
             authentication: {
-                role: "public"
+                role: ["public"]
             }
         };
         return next();
     }
 
+    let user = req.userContext.userinfo;
+
     res.locals = {
         authentication: {
-            id: req.session.passport.user.id,
-            nickname: req.session.passport.user.nickname,
-            role: req.session.passport.user.role
+            id: user.sub,
+            given_name: user.given_name,
+            family_name: user.family_name,
+            role: user.groups,
+            username: user.preferred_username
         }
     };
+
+    // console.log(user);
+    // console.log(res.locals);
 
     next();
 }

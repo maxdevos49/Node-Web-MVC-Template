@@ -21,5 +21,10 @@ export const config = {
     },
     "session": {
         "secret": process.env.SECRET
+    },
+    "okta": {
+        "issuer": process.env.OKTA_ORG_URL,
+        "client_id": process.env.OKTA_CLIENT_ID,
+        "client_secret": process.env.OKTA_CLIENT_SECRET
     }
 };

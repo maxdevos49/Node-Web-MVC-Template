@@ -5,10 +5,6 @@
             "path": "."
         },
         {
-            "name": "Test",
-            "path": "./test"
-        },
-        {
             "name": "Documentation",
             "path": "./documentation"
         },
@@ -19,7 +15,6 @@
     ],
     "settings": {
         "files.exclude": {
-            "**/.env": true,
             "**/package-lock.json": true,
             "**/node_modules": true,
             "**/.git": true,

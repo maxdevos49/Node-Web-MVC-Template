@@ -1,6 +1,7 @@
 import { IViewModel, IViewProperty } from "../helpers/vash/vashInterfaces";
 
 export class DashboardViewModel implements IViewModel {
+
     public nickname: IViewProperty = {
         type: String,
         path: "nickname",
@@ -35,12 +36,6 @@ export class DashboardViewModel implements IViewModel {
         minlength: 8,
         maxlength: 50,
         matches: "password",
-        required: true
-    };
-
-    public token: IViewProperty = {
-        type: String,
-        path: "token",
         required: true
     };
 

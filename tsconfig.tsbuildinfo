@@ -126,8 +126,8 @@
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/config.ts": {
-        "version": "e001afd5d2e0cbf873f81103b7a01de6d86a649259e7c4936ec6aa6f2a1a0bf0",
-        "signature": "401187a796ad170fd2f06d719a008a9ab32f8b5625338c503b04d0ece08dfb76"
+        "version": "f2b002d5df13419bed35c9df26b9e095fbbbe5198e9bdece3e889639bd6fe40a",
+        "signature": "83a4c83cba0fc313aaf6583d6fd529fb30e47786e0fdb1a4e478b438f3043e85"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/globals.d.ts": {
         "version": "3af134c0480536f901a30692d216bd29712a3869fe38a7be066ea1eef34a8561",
@@ -330,28 +330,32 @@
         "signature": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts": {
-        "version": "434d7d3188d85bd46c64dcc8268422ffdfdd19fdbc98ec01446d650414fcaa0b",
-        "signature": "434d7d3188d85bd46c64dcc8268422ffdfdd19fdbc98ec01446d650414fcaa0b"
+        "version": "5eb5136c96d520a972d5a9d8f9f4c96f42d762d95f812cf8dd47b4d1d194e876",
+        "signature": "5eb5136c96d520a972d5a9d8f9f4c96f42d762d95f812cf8dd47b4d1d194e876"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/ip/index.d.ts": {
         "version": "4d2319a2a33bd370e1b85399fa1b83751725981f21aae64a521b1db123e38cf4",
         "signature": "4d2319a2a33bd370e1b85399fa1b83751725981f21aae64a521b1db123e38cf4"
       },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts": {
-        "version": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253",
-        "signature": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253"
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts": {
+        "version": "f85472756f9a0cdfc1beec784c8f73829ffd784816241c5b0480fb75506838a6",
+        "signature": "f85472756f9a0cdfc1beec784c8f73829ffd784816241c5b0480fb75506838a6"
       },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts": {
-        "version": "aa31503f82951fa7b1dfa78857da8dc35149bf21162a8d977141720636ae64e0",
-        "signature": "aa31503f82951fa7b1dfa78857da8dc35149bf21162a8d977141720636ae64e0"
-      },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts": {
-        "version": "9cd1850a31fc9604eea41853cf1a7257b445bf91b7fbf75e377961050c71fe93",
-        "signature": "9cd1850a31fc9604eea41853cf1a7257b445bf91b7fbf75e377961050c71fe93"
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/types/@okta/oidc-middleware.d.ts": {
+        "version": "51c18fb28f6a1eeb56798d9f3994f185166e462d2cd6db88bda4d10f982684fb",
+        "signature": "51c18fb28f6a1eeb56798d9f3994f185166e462d2cd6db88bda4d10f982684fb"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/homecontroller.ts": {
-        "version": "66d9652da125e99f26513727dffe3ec578ec1724115052d5a055ac7416a7f004",
+        "version": "f316ffbfd688bb70cbc7e6a6d670079e0e133ec0dd8b499fc926227e634b7722",
         "signature": "54d6012f13ffc07e2cc13fca344555e48c764128a7e79d4a23eb926421cb0249"
+      },
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/accountcontroller.ts": {
+        "version": "e7e8bccd3de9e8af084260fc9ba30c2e1052aa79476ae7c90fb86dc148060997",
+        "signature": "54d6012f13ffc07e2cc13fca344555e48c764128a7e79d4a23eb926421cb0249"
+      },
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts": {
+        "version": "5db4981d6740e42b9daa624ea7ee4c841db1488604674c344ecd7c195136e9b9",
+        "signature": "5b0c84e41bdfbe3269e5c86109bccd53e3cf37fa2626084853d097f502a303d9"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/vashinterfaces.ts": {
         "version": "392b444783e6f8c1a9876d16bd79a8f399a071734342fefd8cddbc67a0eece0e",
@@ -366,20 +370,12 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/setup.ts": {
-        "version": "e833c40dd705fc398e7d1293712d4ceb34a0ef253799e927d36318dce95b25b7",
+        "version": "4e94ce6bdd6f9610b3546091029fc4df3203482ea04afdc7083744b6d4d6e512",
         "signature": "cb99ec84d06b933c6238edda4ff0459f23f360c75df2e723426497dc6ce38dee"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/server.ts": {
         "version": "ba7ec66d947c330e7e18cf0b9b152772df4191a1651cc5e8270c92f8e14f3948",
         "signature": "b8ecc1b847b7d3f833eefe675ddefbc7b01437102e193ad0b02cbe131818a8d9"
-      },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/authcontroller.ts": {
-        "version": "189fdcf2544192e108c7f55f8701dd3f9b22bbd2f3626b3d6ce4d161681f2c39",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bcryptjs/index.d.ts": {
-        "version": "9dfe431ab1485e17a6055e186c49da9d23af74b965f2e99f8acc6c958778608f",
-        "signature": "9dfe431ab1485e17a6055e186c49da9d23af74b965f2e99f8acc6c958778608f"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/nodemailer/lib/dkim.d.ts": {
         "version": "63cdbcdb5776024d84e9ad301e013ca224ef055e5233709a5cdee37df66dbc67",
@@ -438,64 +434,40 @@
         "signature": "1f43bd66773abcd61688fc671589aa13c4bc133b5330f0ab1c2b122dc25ded5a"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/shared.ts": {
-        "version": "5e5c644cfe21ebc00d7b99b99c3f70b5c036a8db8c89c7ab8109b2bbdf45ac05",
-        "signature": "e3a90a9c3d8c204088a3c7e0543d23647155abdb56afcfe8556ccf0477d4e0cc"
+        "version": "ce185f7b2984b2670dc02630cce21fc12eb76b7d74cd2a308822138821189256",
+        "signature": "63d43b4428ac45ca5b8d36012b4961760a6753bf629141f24fdc184cd52bbf25"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/view.ts": {
         "version": "0ea021162be74f694498a579431f89d5d5d2f9ae401e33ac62fc51281500d817",
         "signature": "0eddcaaf475d62afa61b91b3cc47fe1074c55cfaa0fbb860e4f528529718d3ab"
       },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts": {
-        "version": "1329938fbc9f131f6b686a4f062fb575b7f04720d777945092e5816c7f393a64",
-        "signature": "d3b87c280136062cf1ea51f5dd34414df22976e21c31275b247c7a60f95fcbdd"
-      },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/passport.ts": {
-        "version": "f07789fb9762b6c010e3944b6d4a4abffc381e586e88ccea035777acc8eb6996",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/permit.ts": {
-        "version": "75d57375f7fe45eaef37f719f8472e7cf74fe7175c7cc4791b4ee61af3301b6a",
+        "version": "0018de7a0b350202c5563d6d2a778306cef67698d3d1988e8a58941fbeb070af",
         "signature": "c2fe47a73c19c7e10ca795e0cdb597b657345df9db9b31c11cdd874f9f8e236c"
       },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/models/account.ts": {
-        "version": "2ea8f9b5779f0814c7784e86ab8656d289915aefe2c574c248872c3b7a724100",
-        "signature": "f299f7b3b96191522488aafa99ff5e30ed39046490eaea8a6fa3475e206a7108"
-      },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/models/logins.ts": {
-        "version": "34b6251c3bbbc4c0457c98c461a6fe6aa67348846b95f424582779f305d35cf4",
-        "signature": "d115c137f1b8a9eedfd893e830833efec8c7f79273c86d69eb2cc7e76f7abad8"
-      },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/dashboardviewmodel.ts": {
-        "version": "736715e3ffcd1555b6a3270bd3481dc1e5ad9ddbb7ada010a6b74991c2a3712e",
-        "signature": "593c99912f6048edde93d1129cd000ecc9ce5ee5cc73a456cfbb02bd88d632b1"
+        "version": "5feb255888d5816916174bd4ad70e1bdfcdd507287eaaa9614a531b76e8b0cae",
+        "signature": "f9d8b3bd988c487f7f9a4f36226de7da01516b3130556c268937ffce0bd9b6ed"
       },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/loginviewmodel.ts": {
-        "version": "a897e4961d5937856632bd9d48c4cd6347c5c4f4facbcfb8f67c0691a07b0c25",
-        "signature": "92aacde1370ae4fb0725800593ddf2b1cbd316938ddc88a4c2a4e5f0f802a13f"
-      },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/registerviewmodel.ts": {
-        "version": "cf6f9b46824015e37ce975442e20932c7cf31de054c574ca1eccdfbdf44a986e",
-        "signature": "84af2215b2ae42bc006ae03c060b6a8cf8c0382d061c1e657c26cc176b26af38"
-      },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/chai/index.d.ts": {
-        "version": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7",
-        "signature": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7"
-      },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/cookie-parser/index.d.ts": {
-        "version": "a1df8fab03cc0f18714669348226e0edf320cd0ac6771a8c2b23abe97f1867e2",
-        "signature": "a1df8fab03cc0f18714669348226e0edf320cd0ac6771a8c2b23abe97f1867e2"
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts": {
+        "version": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253",
+        "signature": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/dotenv/index.d.ts": {
         "version": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a",
         "signature": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a"
       },
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts": {
-        "version": "f85472756f9a0cdfc1beec784c8f73829ffd784816241c5b0480fb75506838a6",
-        "signature": "f85472756f9a0cdfc1beec784c8f73829ffd784816241c5b0480fb75506838a6"
-      },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mocha/index.d.ts": {
         "version": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102",
         "signature": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102"
+      },
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts": {
+        "version": "aa31503f82951fa7b1dfa78857da8dc35149bf21162a8d977141720636ae64e0",
+        "signature": "aa31503f82951fa7b1dfa78857da8dc35149bf21162a8d977141720636ae64e0"
+      },
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts": {
+        "version": "9cd1850a31fc9604eea41853cf1a7257b445bf91b7fbf75e377961050c71fe93",
+        "signature": "9cd1850a31fc9604eea41853cf1a7257b445bf91b7fbf75e377961050c71fe93"
       },
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/passport/index.d.ts": {
         "version": "d28897ce8805732025d37e0acb24accd2903396d5c6a880b1cc3c2307f5ba7a2",
@@ -986,32 +958,30 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts": [
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/stream.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/tls.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/stream.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/types/@okta/oidc-middleware.d.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/homecontroller.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/config.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/accountcontroller.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1032,9 +1002,13 @@
       ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/setup.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/http.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/body-parser/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/types/@okta/oidc-middleware.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/homecontroller.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/accountcontroller.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/helpers.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/config.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
@@ -1046,14 +1020,6 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/ip/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/config.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/setup.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/authcontroller.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bcryptjs/index.d.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1205,7 +1171,6 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/shared.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bcryptjs/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/nodemailer/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/config.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
@@ -1218,27 +1183,8 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/passport.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/permit.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/models/account.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/models/logins.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1247,22 +1193,8 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/loginviewmodel.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/vashinterfaces.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/registerviewmodel.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/vashinterfaces.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/chai/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/cookie-parser/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1271,14 +1203,25 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mocha/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/stream.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/tls.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mocha/index.d.ts": [
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/stream.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1748,30 +1691,24 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts": [
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/stream.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/tls.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/stream.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/types/@okta/oidc-middleware.d.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/homecontroller.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts"
+      ],
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/accountcontroller.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts"
+      ],
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts"
       ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/validation.ts": [
@@ -1784,10 +1721,6 @@
       ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/server.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bcryptjs/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/nodemailer/lib/dkim.d.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
@@ -1940,33 +1873,14 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/vashinterfaces.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts"
-      ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/permit.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/models/account.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/models/logins.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts"
       ],
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/dashboardviewmodel.ts": [
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/vashinterfaces.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/loginviewmodel.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/vashinterfaces.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/registerviewmodel.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/vashinterfaces.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/chai/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/cookie-parser/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1975,14 +1889,25 @@
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts": [
-        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mocha/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/stream.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/tls.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mocha/index.d.ts": [
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts": [
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/events.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/stream.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
+        "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/util.d.ts",
         "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -2099,17 +2024,16 @@
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/body-parser/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/ip/index.d.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/types/@okta/oidc-middleware.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/homecontroller.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/accountcontroller.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/vashinterfaces.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/validation.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/helpers.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/setup.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/server.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/controllers/authcontroller.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bcryptjs/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/nodemailer/lib/dkim.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/nodemailer/lib/mailer/mail-message.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/nodemailer/lib/xoauth2.d.ts",
@@ -2126,19 +2050,13 @@
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/nodemailer/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/shared.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/helpers/vash/view.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/authentication.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/passport.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/middleware/permit.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/models/account.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/models/logins.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/dashboardviewmodel.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/loginviewmodel.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/src/viewmodels/registerviewmodel.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/chai/index.d.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/cookie-parser/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/bson/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/dotenv/index.d.ts",
-      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/express-session/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mocha/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongodb/index.d.ts",
+      "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/mongoose/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/passport/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/passport-strategy/index.d.ts",
       "/users/maxdevos/desktop/programming_projects/node_projects/homecenter/node_modules/@types/passport-local/index.d.ts",

@@ -22,9 +22,9 @@ Home/Apartment infotainment center with module extensions planned such as audio,
  
 ## TODO
  - [ ] Setup Continuous integration
- - [ ] Setup project template
- - [ ] Create project task board
+ - [x] Setup project template
+ - [x] Create project task board
  - [ ] Create scene based rendering system
  - [ ] Create a widget sub scene system
- - [ ] Learn React for the front end development
+ - [ ] Learn React for the front end development maybe
 

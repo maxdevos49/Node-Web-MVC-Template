@@ -4,9 +4,6 @@
     "description": "Home/Apartment infotainment center with module extensions planned such as audio, video, picture, and a calender extensions.",
     "main": "server.js",
     "devDependencies": {
-        "@types/bcryptjs": "^2.4.2",
-        "@types/chai": "^4.1.7",
-        "@types/cookie-parser": "^1.4.1",
         "@types/dotenv": "^6.1.0",
         "@types/express": "^4.16.1",
         "@types/express-session": "^1.15.12",
@@ -25,8 +22,7 @@
         "socket.io-client": "^2.2.0"
     },
     "dependencies": {
-        "bcryptjs": "^2.4.3",
-        "cookie-parser": "^1.4.4",
+        "@okta/oidc-middleware": "^2.0.0",
         "dotenv": "^6.2.0",
         "esm": "^3.2.9",
         "express": "^4.16.4",

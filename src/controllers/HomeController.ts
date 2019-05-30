@@ -21,14 +21,7 @@ router.get("/", (req: Request, res: Response) => {
  * GET:/about
  */
 router.get("/about", (req: Request, res: Response) => {
-    res.render("Home/about", { config: config });
-});
-
-/**
- * GET:/contact
- */
-router.get("/contact", (req: Request, res: Response) => {
-    res.render("Home/contact", { config: config });
+    res.render("Home/about");
 });
 
 

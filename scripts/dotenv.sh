@@ -38,6 +38,12 @@ HASH_SALT=5
 
 #Session
 SECRET="supersecret"
+
+# Okta configuration
+OKTA_ORG_URL=https://{yourOktaDomain}
+OKTA_CLIENT_ID={yourClientId}
+OKTA_CLIENT_SECRET={yourClientSecret}
+
 EOF
         echo ".env file was generated. Version: $version";
     else

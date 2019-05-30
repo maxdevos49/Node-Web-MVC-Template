@@ -1,4 +1,3 @@
-import bcrypt from "bcryptjs";
 import nodemailer from "nodemailer";
 import { config } from "../config";
 
@@ -6,26 +5,6 @@ import { config } from "../config";
  * Shared class for commonly reused code`
  */
 export class Shared {
-    /**
-     * Method to hash a string like a passord when a new user is registered
-     * @param str
-     * @returns a string representing a hash
-     */
-    static hashString(str: string): string {
-        if (!config.hash.salt) throw "Salt is invalid";
-        let salt = bcrypt.genSaltSync(parseInt(config.hash.salt));
-        return bcrypt.hashSync(str, salt);
-    }
-
-    /**
-     * Method to compare a string to a hash to tell if they match
-     * @param str
-     * @param hash
-     * @returns true or false
-     */
-    static compareHash(str: string, hash: string): boolean {
-        return bcrypt.compareSync(str, hash);
-    }
 
     static async sendEmail(email: IEmail) {
 
@@ -51,7 +30,7 @@ export class Shared {
 
         // send mail with defined transport object
         let info = await transporter.sendMail({
-            from: '"BRTD@gmail.com" <BRTD@egmail.com>',
+            from: '"BRTD@gmail.com" <BRTD@gmail.com>',
             to: email.email,
             subject: email.subject,
             html: email.body

@@ -5,13 +5,17 @@ import { Response, Request, NextFunction } from "express";
  * @param redirect redirect route if role is not permitted
  */
 export function permit(allowed: string[], redirect: string = "/") {
+
     const isAllowed = (role: string) => allowed.indexOf(role) > -1;
 
     return (req: Request, res: Response, next: NextFunction) => {
-        if (isAllowed(res.locals.authentication.role)) next();
-        else {
-            res.redirect(redirect);
-        }
+
+        res.locals.authentication.role.array.forEach((role: string) => {
+            if (isAllowed(role))
+                return next();
+        });
+
+        return res.redirect(redirect);
     };
 }
 
