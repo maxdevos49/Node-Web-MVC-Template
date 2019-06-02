@@ -2,20 +2,19 @@ import { Response, Request, NextFunction } from "express";
 /**
  * middleware for doing role-based permissions
  * @param allowed allowed roles
- * @param redirect redirect route if role is not permitted
+ * @param redirect redirect route if role is not permitted. default is the home index of the site
  */
 export function permit(allowed: string[], redirect: string = "/") {
 
-    const isAllowed = (role: string) => allowed.indexOf(role) > -1;
-
     return (req: Request, res: Response, next: NextFunction) => {
 
-        res.locals.authentication.role.array.forEach((role: string) => {
-            if (isAllowed(role))
-                return next();
-        });
+        let result: string[] = res.locals.authentication.role.filter((role: string) => allowed.includes(role));
 
-        return res.redirect(redirect);
+        if (result.length > 0)
+            return next();
+        else
+            return res.redirect(redirect);
+
     };
 }
 

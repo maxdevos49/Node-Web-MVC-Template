@@ -8,5 +8,27 @@
 
         <h1>@model.title Page</h1>
 
+        <dl class="row m-4">
+
+
+            <dt class="col-md-3">
+                <p>Elephant SQL for Postgres Hosting</p>
+            </dt>
+            <dd class="col-md-9">
+                <a href="https://www.elephantsql.com">www.elephantsql.com</a>
+            </dd>
+
+            @*
+            <dt class="col-md-3">
+                <p>Elephant SQL for Postgres Hosting</p>
+            </dt>
+            <dd class="col-md-9">
+                <a href="https://www.elephantsql.com">www.elephantsql.com</a>
+            </dd>
+            *@
+
+
+        </dl>
+
     })
 })

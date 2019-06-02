@@ -1,5 +1,5 @@
 export const config = {
-    "title": "HomeCenter",
+    "title": "Node App",
     "versionRelease": "TBD",
     "versionTitle": "alpha",
     "version": "1.0.0",
@@ -13,11 +13,8 @@ export const config = {
         "username": process.env.USERNAME,
         "password": process.env.PASSWORD
     },
-    "hash": {
-        "salt": process.env.HASH_SALT
-    },
     "database": {
-        "dbUrl": process.env.MONGODB_URI
+        "dbUrl": process.env.DATABASE_URL
     },
     "session": {
         "secret": process.env.SECRET

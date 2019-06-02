@@ -90,13 +90,6 @@ export interface IConfig {
         transport: string;
     };
 
-    /**
-     * Configuration for hashing
-     */
-    hash: {
-        salt: string;
-    };
-
     email: {
         username: string;
         password: string;

@@ -8,6 +8,8 @@
 
         @html.include("Shared/_viewstart")
 
+        @html.include("Shared/_bundleconfig")
+
 		<title>@model.title | @model.project</title>
     </head>
     <body class="bg-aluminum" >
@@ -59,9 +61,6 @@
             <div class="footer-copyright text-center py-3 text">
                 © 2018 - @(new Date().getFullYear()): Maxwell DeVos
             </div>
-        </footer>
-
-        @html.include("Shared/_bundleconfig")
-        
+        </footer>        
     </body>
 </html>

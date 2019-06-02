@@ -1,5 +1,5 @@
 import express from "express";
-// import mongoose from "mongoose";
+import mongoose from "mongoose";
 import http from "http";
 import bodyParser from "body-parser";
 import session from "express-session";
@@ -10,6 +10,7 @@ import homeController from "./controllers/HomeController";
 import accountController from "./controllers/AccountController";
 
 import { authentication } from "./middleware/authentication";
+import { loginProcess } from "./middleware/loginProcess";
 
 import "./helpers/vash/helpers";
 import { config } from "./config";
@@ -19,13 +20,15 @@ const router: express.Router = express.Router();
 export function setup(server: http.Server) {
 
     //setup database connection
-    // mongoose.connect(config.database.dbUrl, { useNewUrlParser: true });
+    mongoose.connect(config.database.dbUrl, { useNewUrlParser: true });
 
     //middleware
     router.use(bodyParser.urlencoded({ extended: false }));
     router.use(bodyParser.json());
+
+    //Session
     router.use(session({
-        secret: "super secret key",
+        secret: config.session.secret,
         resave: true,
         saveUninitialized: false
     }));
@@ -35,8 +38,25 @@ export function setup(server: http.Server) {
         appBaseUrl: `${config.server.transport}://${config.server.domain}:${config.server.port}`,
         client_id: config.okta.client_id,
         client_secret: config.okta.client_secret,
-        redirect_uri: `${config.server.transport}://${config.server.domain}:${config.server.port}/authorization-code/callback`,
-        scope: 'openid profile groups'
+        scope: 'openid profile groups',
+
+        routes: {
+            login: {
+                path: '/account/login'
+              },
+            loginCallback: {
+                handler: loginProcess
+            },
+        },
+        
+    });
+
+    oidc.on('ready', () => {
+        console.log("Okta connection was established.");
+    });
+
+    oidc.on('error', (err: any) => {
+        console.log("Okta Error: \n" + err);
     });
 
     // ExpressOIDC will attach handlers for the /login and /authorization-code/callback routes

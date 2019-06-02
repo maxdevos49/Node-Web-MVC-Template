@@ -19,12 +19,13 @@ export function authentication(req: any, res: Response, next: NextFunction) {
             id: user.sub,
             given_name: user.given_name,
             family_name: user.family_name,
-            role: user.groups,
+            role: user.groups.map((role: string) => role.toLowerCase()),
             username: user.preferred_username
         }
     };
 
     // console.log(user);
+    // console.log();
     // console.log(res.locals);
 
     next();

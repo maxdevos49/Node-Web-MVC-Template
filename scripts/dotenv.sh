@@ -30,14 +30,17 @@ NODE_ENVIROMENT=development
 
 #Server Port
 PORT=8080
-DOMAIN=localhost:8080
+DOMAIN=localhost
 TRANSPORT=http
+
+#Database
+DATABASE_URL="<Database connection string>"
 
 #Hash
 HASH_SALT=5
 
 #Session
-SECRET="supersecret"
+SECRET="<secret key here>"
 
 # Okta configuration
 OKTA_ORG_URL=https://{yourOktaDomain}
