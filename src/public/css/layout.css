@@ -25,6 +25,10 @@
     background-color: #F19F4D !important;
 }
 
+.shadow{
+    box-shadow: 0 4px 8px 0 black !important;
+}
+
 /****Debug CSS******/
 .border {
     border: 2px solid black !important;

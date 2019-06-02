@@ -8,18 +8,6 @@ Home/Apartment infotainment center with module extensions planned such as audio,
  - Accounts are implemented with private, group, and public modes for use in different locations/ on different devices
  - Complete testing on all aspects of the project
  
-## Planned Technologies
- - Typescript
- - Node
- - React
- - Socket.io
- - Express
- - Mocha & Chai
- - Mongoose
- - MongoDB
- - Bootstrap
- - npm
- 
 ## TODO
  - [ ] Setup Continuous integration
  - [x] Setup project template
