@@ -6,7 +6,61 @@
             model.title = "Dashboard";
         }
 
-        <h1>@model.title Page</h1>
+        <div class="col-md-10 p-3 mx-auto">
+
+            <div class="col-md-12" style="box-shadow: 0 4px 8px 0 black;">
+
+                <h2>Dashboard</h2>
+                <hr/>
+
+                <dl class="row">
+
+                    @*Okta Id*@
+                    <dt class="col-md-3 text-right">
+                        @html.DisplayNameFor(model => model.oktaId)
+                    </dt>
+                    <dd class="col-md-9">
+                        @html.DisplayFor(model => model.oktaId)
+                    </dd>
+
+                    @*First Name*@
+                    <dt class="col-md-3 text-right">
+                        @html.DisplayNameFor(model => model.firstname)
+                    </dt>
+                    <dd class="col-md-9">
+                        @html.DisplayFor(model => model.firstname)
+                    </dd>
+
+                    @*Last Name*@
+                    <dt class="col-md-3 text-right">
+                        @html.DisplayNameFor(model => model.lastname)
+                    </dt>
+                    <dd class="col-md-9">
+                        @html.DisplayFor(model => model.lastname)
+                    </dd>
+
+                    @*Email*@
+                    <dt class="col-md-3 text-right">
+                        @html.DisplayNameFor(model => model.email)
+                    </dt>
+                    <dd class="col-md-9">
+                        @html.DisplayFor(model => model.email)
+                    </dd>
+
+                    @*Roles*@
+                    <dt class="col-md-3 text-right">
+                        @html.DisplayNameFor(model => model.role)
+                    </dt>
+                    <dd class="col-md-9">
+                        @html.DisplayFor(model => model.role)
+                    </dd>
+
+
+                </dl>
+
+            </div>
+
+        </div>
 
     })
 })

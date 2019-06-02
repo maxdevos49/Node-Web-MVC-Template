@@ -2,6 +2,7 @@
 *.js
 *.js.map
 *.js.min
+tsconfig.tsbuildinfo
 
 #General
 node_modules

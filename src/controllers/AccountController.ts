@@ -1,5 +1,8 @@
 import express, { Request, Response, Router } from "express";
 import { permit } from "../middleware/permit";
+import userModel from "../Models/userModel";
+import { View } from "../helpers/vash/view";
+import { UserViewModel } from "../viewModels/DashboardViewModel";
 const router: Router = express.Router();
 
 /**
@@ -23,8 +26,15 @@ router.get("/register", permit(["homecenter-user"]), (req: Request, res: Respons
 /**s
  * GET:/dashboard
  */
-router.get("/dashboard", permit(["homecenter-user"]), (req: Request, res: Response) => {
-    res.render("Account/dashboard");
+router.get("/dashboard", permit(["homecenter-user"]), (req: any, res: Response) => {
+    
+    userModel.findOne({oktaId: req.userContext.userinfo.sub}, (err, doc) => {
+        if(err) throw err;
+
+         res.render("Account/dashboard", View(res, UserViewModel, doc));
+
+
+    });
 });
 
 

@@ -1,11 +1,26 @@
 import { IViewModel, IViewProperty } from "../helpers/vash/vashInterfaces";
 
-export class DashboardViewModel implements IViewModel {
+export class UserViewModel implements IViewModel {
 
-    public nickname: IViewProperty = {
+    public oktaId: IViewProperty = {
         type: String,
-        path: "nickname",
-        name: "Nickname",
+        path: "oktaId",
+        name: "Okta Id",
+    };
+
+    public firstname: IViewProperty = {
+        type: String,
+        path: "firstname",
+        name: "First Name",
+        minlength: 3,
+        maxlength: 40,
+        required: true
+    };
+
+    public lastname: IViewProperty = {
+        type: String,
+        path: "lastname",
+        name: "Last Name",
         minlength: 3,
         maxlength: 40,
         required: true
@@ -20,23 +35,10 @@ export class DashboardViewModel implements IViewModel {
         required: true
     };
 
-    public password: IViewProperty = {
+    public role: IViewProperty = {
         type: String,
-        path: "password",
-        name: "Password",
-        minlength: 8,
-        maxlength: 50,
-        required: true
-    };
-
-    public passwordConfirmation: IViewProperty = {
-        type: String,
-        path: "passwordConfirmation",
-        name: "Password Confirmation",
-        minlength: 8,
-        maxlength: 50,
-        matches: "password",
-        required: true
+        path: "role",
+        name: "Roles",
     };
 
 }
