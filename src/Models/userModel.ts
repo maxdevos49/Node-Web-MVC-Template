@@ -2,17 +2,17 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
-export interface IUser {
-    id: string;
-    firstname: string;
-    lastname: string;
-    email: string;
-    role?: string[];
-    isActive?: Boolean;
-    createdOn?: Date;
-    updatedOn?: Date;
-    updatedBy?: String;
-}
+// export interface IUser {
+//     id: string;
+//     firstname: string;
+//     lastname: string;
+//     email: string;
+//     role?: string[];
+//     isActive?: Boolean;
+//     createdOn?: Date;
+//     updatedOn?: Date;
+//     updatedBy?: String;
+// }
 
 const UserSchema = new Schema({
     oktaId: {

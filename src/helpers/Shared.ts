@@ -30,7 +30,7 @@ export class Shared {
 
         // send mail with defined transport object
         let info = await transporter.sendMail({
-            from: '"BRTD@gmail.com" <BRTD@gmail.com>',
+            from: config.email.from,
             to: email.email,
             subject: email.subject,
             html: email.body

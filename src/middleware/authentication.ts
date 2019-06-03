@@ -24,9 +24,5 @@ export function authentication(req: any, res: Response, next: NextFunction) {
         }
     };
 
-    // console.log(user);
-    // console.log();
-    // console.log(res.locals);
-
     next();
 }

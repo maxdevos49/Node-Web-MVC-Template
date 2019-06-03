@@ -11,7 +11,8 @@ export const config = {
     },
     "email": {
         "username": process.env.USERNAME,
-        "password": process.env.PASSWORD
+        "password": process.env.PASSWORD,
+        "from": process.env.FROM
     },
     "database": {
         "dbUrl": process.env.DATABASE_URL
