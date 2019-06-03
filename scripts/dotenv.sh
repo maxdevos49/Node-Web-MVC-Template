@@ -26,15 +26,20 @@ else
 #Do not commit this file!
 
 #NODE Enviroment
-NODE_ENVIROMENT=development
+NODE_ENVIROMENT="development"
 
 #Server Port
 PORT=8080
-DOMAIN=localhost
-TRANSPORT=http
+DOMAIN="localhost"
+TRANSPORT="http"
 
 #Database
 DATABASE_URL="<Database connection string>"
+
+#Email
+USERNAME="<username>"
+PASSWORD="<password>"
+FROM="<email from>"
 
 #Hash
 HASH_SALT=5
@@ -43,9 +48,9 @@ HASH_SALT=5
 SECRET="<secret key here>"
 
 # Okta configuration
-OKTA_ORG_URL=https://{yourOktaDomain}
-OKTA_CLIENT_ID={yourClientId}
-OKTA_CLIENT_SECRET={yourClientSecret}
+OKTA_ORG_URL="<your okta domain>"
+OKTA_CLIENT_ID="<your okta client id>"
+OKTA_CLIENT_SECRET="<your okta client secret>"
 
 EOF
         echo ".env file was generated. Version: $version";
