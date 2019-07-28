@@ -2,8 +2,9 @@ export const config = {
     "title": "Node App",
     "versionRelease": "TBD",
     "versionTitle": "alpha",
-    "version": "1.0.0",
+    "version": "0.1.0.0",
     "path": __dirname,
+    "debug": process.env.APP_DEBUG === "true",
     "server": {
         "environment": process.env.NODE_ENVIRONMENT,
         "port": process.env.PORT,

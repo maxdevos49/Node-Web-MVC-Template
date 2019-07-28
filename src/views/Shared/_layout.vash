@@ -14,6 +14,28 @@
     </head>
     <body class="bg-aluminum" >
 
+        @if(model.configuration.debug){//if debug
+            <div class="p-2 debug-panel">
+                <h3>Debug</h3>
+                <span style="width: 2%;"></span>
+                <p>Database: 
+                @if(model.configuration.database.dbUrl.includes("prod")){//test db
+                    @: Production
+                }else if(model.configuration.database.dbUrl.includes("test")){
+                    @: Test
+                }else{
+                    @: unknown
+                }
+                </p>
+                <span style="width: 2%;"></span>
+                <p>Environment: @model.configuration.server.environment</p>
+                <span style="width: 2%;"></span>
+                <p>Application name: @model.configuration.title</p>
+                <span style="width: 2%;"></span>
+                <p>Version: @model.configuration.versionTitle @model.configuration.version</p>
+            </div>
+        }
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-blue col-md-10 mx-auto">
             <a class="navbar-brand" href="/Home/">
                 @model.project
