@@ -4,6 +4,8 @@ import http from "http";
 import bodyParser from "body-parser";
 import session from "express-session";
 import { ExpressOIDC } from '@okta/oidc-middleware';
+import fileUpload from "express-fileupload";
+import useragent from 'express-useragent';
 
 //controllers
 import homeController from "./controllers/HomeController";
@@ -17,14 +19,16 @@ import { config } from "./config";
 
 const router: express.Router = express.Router();
 
-export function setup(server: http.Server) {
+export function startup(server: http.Server) {
 
     //setup database connection
     mongoose.connect(config.database.dbUrl, { useNewUrlParser: true });
 
     //middleware
+    router.use(useragent.express());
     router.use(bodyParser.urlencoded({ extended: false }));
     router.use(bodyParser.json());
+    router.use(fileUpload({ safeFileNames: true, preserveExtension: true }));
 
     //Session
     router.use(session({
@@ -33,6 +37,7 @@ export function setup(server: http.Server) {
         saveUninitialized: false
     }));
 
+    //express configuration
     const oidc = new ExpressOIDC({
         issuer: config.okta.issuer,
         appBaseUrl: `${config.server.transport}://${config.server.domain}:${config.server.port}`,
@@ -46,17 +51,8 @@ export function setup(server: http.Server) {
               },
             loginCallback: {
                 handler: loginProcess
-            },
-        },
-        
-    });
-
-    oidc.on('ready', () => {
-        console.log("Okta connection was established.");
-    });
-
-    oidc.on('error', (err: any) => {
-        console.log("Okta Error: \n" + err);
+            }
+        }
     });
 
     // ExpressOIDC will attach handlers for the /login and /authorization-code/callback routes
@@ -74,7 +70,6 @@ export function setup(server: http.Server) {
 
     //respond with a 404 request if the document was not found
     router.use((req: express.Request, res: express.Response) => {
-
         res.status(404);
         res.render("Shared/404", {url: `${config.server.transport}://${config.server.domain}:${config.server.port}${req.url}`});
     });

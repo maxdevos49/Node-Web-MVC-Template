@@ -3,12 +3,12 @@ import { config } from "../../config";
 import { IViewModel, IModelResult } from "./vashInterfaces";
 
 /**
-    * Creates a IModelResult for a view to use to display data
-    * @param givenResponse express response object
-    * @param givenModel The view model for the view
-    * @param givenData The model to populate the view
-    * @returns IModel result containing all the data structured for the view to use
-    */
+* Creates a IModelResult for a view to use to display data
+* @param givenResponse express response object
+* @param givenModel The view model for the view
+* @param givenData The model to populate the view
+* @returns IModel result containing all the data structured for the view to use
+*/
 export function View(givenResponse: Response, givenModel?: IViewModel, givenData?: any): IModelResult {
     //process auth
     let modelResult: IModelResult = {

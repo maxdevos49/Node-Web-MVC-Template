@@ -80,6 +80,6 @@ export function Validation(property: IViewProperty) {
             });
         }
     }
-
+    
     return result;
 }

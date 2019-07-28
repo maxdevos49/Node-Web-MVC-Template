@@ -4,7 +4,7 @@ import ip from "ip";
 
 //config
 import { config } from "./config";
-import { setup } from "./setup";
+import { startup } from "./startup";
 
 //express init
 const app: express.Application = express();
@@ -13,10 +13,10 @@ const server: http.Server = http.createServer(app);
 //view engine setup
 app.set("view engine", "vash");
 app.set("views", __dirname + "/views");
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/wwwroot"));
 
 //set the routes for the server to use
-app.use("/", setup(server));
+app.use("/", startup(server));
 
 //start the server
 server.listen(config.server.port, function () {

@@ -1,8 +1,9 @@
-import express, { Request, Response, Router } from "express";
+import express, { Response, Router } from "express";
 import { permit } from "../middleware/permit";
 import userModel from "../Models/userModel";
 import { View } from "../helpers/vash/view";
 import { UserViewModel } from "../viewModels/userViewModel";
+import { GeneralUtils } from "../helpers/GeneralUtils";
 const router: Router = express.Router();
 
 /**
@@ -13,18 +14,19 @@ router.get("/logout", (req: any, res: Response) => {
     res.redirect("/Home/");
 });
 
-/**s
+/**
  * GET:/dashboard
  */
-router.get("/dashboard", permit(["homecenter-user"]), (req: any, res: Response) => {
-    
-    userModel.findOne({oktaId: req.userContext.userinfo.sub}, (err, doc) => {
-        if(err) throw err;
+router.get("/dashboard", permit(), async (req: any, res: Response) => {
 
-         res.render("Account/dashboard", View(res, UserViewModel, doc));
+    try {
+        let user = await userModel.findOne({ oktaId: GeneralUtils.GetLoggedInUserId(res) });
 
+        res.render("Account/dashboard", View(res, UserViewModel, user));
+    } catch (err) {
+        GeneralUtils.sendErrorNotification(res, err);
+    }
 
-    });
 });
 
 

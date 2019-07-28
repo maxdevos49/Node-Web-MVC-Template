@@ -15,12 +15,6 @@
 
                 <dl class="row">
 
-                    <dt class="col-md-3 text-right">
-                        <p>Elephant SQL</p>
-                    </dt>
-                    <dd class="col-md-9">
-                        <a href="https://www.elephantsql.com">www.elephantsql.com</a>
-                    </dd>
 
                     <dt class="col-md-3 text-right">
                         <p>mLab</p>
