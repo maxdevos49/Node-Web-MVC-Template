@@ -1,6 +1,6 @@
 import express, { Response, Router } from "express";
 import { permit } from "../middleware/permit";
-import userModel from "../Models/userModel";
+import userModel from "../models/userModel";
 import { View } from "../helpers/vash/view";
 import { UserViewModel } from "../viewModels/userViewModel";
 import { GeneralUtils } from "../helpers/GeneralUtils";

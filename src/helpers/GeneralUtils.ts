@@ -1,8 +1,8 @@
 import { config } from "../config";
 import { Response } from "express";
 import nodemailer from "nodemailer";
-import fileModel from "../Models/fileModel";
-import userModel from "../Models/userModel";
+import fileModel from "../models/fileModel";
+import userModel from "../models/userModel";
 import { View } from "./vash/view";
 import { ErrorViewModel } from "../viewModels/errorViewModel";
 

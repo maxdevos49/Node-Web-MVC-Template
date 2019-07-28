@@ -2,7 +2,7 @@
 #
 # Author Maxwell DeVos
 # Script for generating a default .env file for the
-# project. (Because they are not transfered with git)
+# project. (Because they are should not be transfered with git)
 version=1.0
 set -eu
 
@@ -25,8 +25,8 @@ else
 
 #Do not commit this file!
 
-#NODE Enviroment
-NODE_ENVIROMENT="development"
+#NODE Environment
+NODE_ENVIRONMENT="localhost"
 
 #Server Port
 PORT=8080
@@ -40,6 +40,7 @@ DATABASE_URL="<Database connection string>"
 USERNAME="<username>"
 PASSWORD="<password>"
 FROM="<email from>"
+ERROREMAIL="<email for error notifications>"
 
 #Hash
 HASH_SALT=5

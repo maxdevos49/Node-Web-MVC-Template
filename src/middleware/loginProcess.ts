@@ -1,4 +1,4 @@
-import userModel from "../Models/userModel";
+import userModel from "../models/userModel";
 
 export function loginProcess(req: any, res: any, next: any) {
 
