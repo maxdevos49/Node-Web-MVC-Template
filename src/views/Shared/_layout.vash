@@ -16,7 +16,7 @@
 
         @if(model.configuration.debug){//if debug
             <div class="p-2 debug-panel">
-                <h3>Debug</h3>
+                <h3>Debug Mode:</h3>
                 <span style="width: 2%;"></span>
                 <p>Database: 
                 @if(model.configuration.database.dbUrl.includes("prod")){//test db

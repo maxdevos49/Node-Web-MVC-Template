@@ -1,6 +1,8 @@
 import express from "express";
 import http from "http";
 import ip from "ip";
+import helmet from "helmet";
+
 
 //config
 import { config } from "./config";
@@ -14,6 +16,7 @@ const server: http.Server = http.createServer(app);
 app.set("view engine", "vash");
 app.set("views", __dirname + "/views");
 app.use(express.static(__dirname + "/wwwroot"));
+app.use(helmet());
 
 //set the routes for the server to use
 app.use("/", startup(server));

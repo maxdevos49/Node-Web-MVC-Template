@@ -1,7 +1,9 @@
-#Typescript
+#Typescript/Javascript
+#*.ts
 *.js
 *.js.map
 *.js.min
+#*.json
 tsconfig.tsbuildinfo
 
 #General
@@ -28,6 +30,7 @@ bin
 *.class
 
 #Text
+#*.md
 *.txt
 
 #Php
@@ -35,4 +38,5 @@ bin
 
 #Bash/Terminal
 *.cgi
+#*.sh
 

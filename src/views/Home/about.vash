@@ -23,6 +23,13 @@
                         <a href="https://www.mlab.com">www.mlab.com</a>
                     </dd>
 
+                     <dt class="col-md-3 text-right">
+                        <p>Free SSL</p>
+                    </dt>
+                    <dd class="col-md-9">
+                        <a href="https://letsencrypt.org/about/">https://letsencrypt.org</a>
+                    </dd>
+
                     <dt class="col-md-3 text-right">
                         <p>Mongoose</p>
                     </dt>
